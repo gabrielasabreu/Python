@@ -1,6 +1,4 @@
-Python 3.8.10 (tags/v3.8.10:3d8993a, May  3 2021, 11:48:03) [MSC v.1928 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license()" for more information.
->>> from datetime import date
+from datetime import date
 atual= date.today().year
 nasc= int(input('Qual o ano de nascimento? '))
 idade= atual - nasc
